@@ -62,8 +62,8 @@ custom ones load.
 1. Update the canonical URL, `og:url` and `og:image` in `index.html` — they currently
    point to `https://ghgarage.github.io/GHGarage-Page/`.
 2. Confirm working hours with the owner and replace „По уговорка“.
-3. Confirm permission to use the photos from the Facebook page and Google Street View.
-   They are used here as placeholders for the concept.
+3. Confirm permission to use the photos from the Facebook page. They are used here
+   as placeholders for the concept.
 4. Check the phone/email with the owner before going live.
 
 ---
