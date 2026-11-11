@@ -11,7 +11,7 @@ auto electrics, air conditioning, air suspension and light mechanical work.
 
 - **Name:** GH GARAGE
 - **Address:** ул. „Атанас Москов“ 38, 9009 Варна (кв. Владислав Варненчик)
-- **Phone:** 087 945 9965
+- **Phone:** 089 999 3203 (main); 087 945 9965 (secondary)
 - **Email:** icoatanasov@mail.bg
 - **Google Maps:** https://www.google.com/maps?cid=15963767772826249730
 - **Facebook:** https://www.facebook.com/people/GH-Garage/100066629180747/
