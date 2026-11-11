@@ -31,6 +31,7 @@ confirms the working hours.
 ├── _headers                    # Cloudflare Pages security headers
 ├── assets/
 │   ├── app.js                  # nav, scroll reveal, click-to-load map
+│   ├── theme.js                # light/dark theme toggle and persistence
 │   ├── favicon.svg
 │   ├── apple-touch-icon.png
 │   ├── og-image.jpg            # 1200×630 social preview
@@ -44,6 +45,9 @@ confirms the working hours.
 
 No build step, no framework, no backend. The map is click-to-load (Google Maps iframe
 is only created after the visitor presses „Покажи картата“).
+
+The site defaults to the light theme. The sun/moon button in the nav switches to the
+dark theme and remembers the choice in `localStorage`.
 
 ---
 
