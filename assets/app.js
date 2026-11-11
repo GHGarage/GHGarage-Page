@@ -85,3 +85,14 @@ window.setTimeout(() => {
     }
     snapped = true;
 }, 5000);
+
+const hero = document.querySelector('.hero');
+const mobileBar = document.querySelector('.mobile-bar');
+
+const updateMobileBar = () => {
+    if (!hero || !mobileBar) return;
+    mobileBar.classList.toggle('visible', hero.getBoundingClientRect().bottom < 80);
+};
+
+window.addEventListener('scroll', updateMobileBar, { passive: true });
+updateMobileBar();
