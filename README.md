@@ -32,6 +32,8 @@ confirms the working hours.
 ├── assets/
 │   ├── app.js                  # nav, scroll reveal, click-to-load map
 │   ├── theme.js                # light/dark theme toggle and persistence
+│   ├── fonts.css               # self-hosted @font-face rules
+│   ├── fonts/                  # Inter, Manrope and Orbitron WOFF2 files
 │   ├── favicon.svg
 │   ├── apple-touch-icon.png
 │   ├── og-image.jpg            # 1200×630 social preview
@@ -48,6 +50,10 @@ is only created after the visitor presses „Покажи картата“).
 
 The site defaults to the light theme. The sun/moon button in the nav switches to the
 dark theme and remembers the choice in `localStorage`.
+
+Fonts are self-hosted in `assets/fonts/` and loaded via `assets/fonts.css`. They are
+preloaded in the document head, so the page does not flash fallback fonts before the
+custom ones load.
 
 ---
 
